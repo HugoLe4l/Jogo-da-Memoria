@@ -1,0 +1,86 @@
+.Card1{
+    perspective: 1000PX;
+    transition: 1.5;
+}
+.Card1:hover{
+    scale: 1.010;
+}
+.Card_image{
+    width: 70px;
+    z-index: 5;
+}
+.Card1 .Card1_Content{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 1s;
+
+}
+
+
+
+.Card_Front, .Card_Back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--Color2);
+    border: 1px solid var(--Border1);
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    backface-visibility: hidden;
+}
+
+.Card_Front{
+    transform: rotateY(0deg); 
+}
+.Card_Back{  
+    transform: rotateY(180deg);
+}
+.Card_Back img{  
+    width: 80px;
+}
+
+.FlipAnimatonCard1{
+    transform: rotateY(180deg);
+}
+
+.EffectCHeckOkCard{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(170, 255, 0, 0.116);
+    transition: 1s;
+}
+
+.CardVisivel{
+    transform: rotateY(180deg);
+}
+.CardEscondido{
+    transform: rotateY(0deg);
+}
+.CardCheckParOk{
+    transition: 0.5s;
+    pointer-events: none !important;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px greenyellow;
+}
+
+
+.Card1_Content p{
+    position: absolute;
+    font-size: 10px;
+    bottom: -30%;
+    text-shadow: 
+        1px 1px 0 rgba(0, 0, 0, 0.8),  /* Borda direita e abaixo */
+        -1px -1px 0 rgba(0, 0, 0, 0.8), /* Borda esquerda e acima */
+        1px -1px 0 rgba(0, 0, 0, 0.8),  /* Borda esquerda e abaixo */
+        -1px 1px 0 rgba(0, 0, 0, 0.8);  /* Borda direita e acima */
+}
+
+

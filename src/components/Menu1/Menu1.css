@@ -1,0 +1,21 @@
+.Menu1{
+    background: linear-gradient(to right, #2C243B, #312940);
+    border: var(--Border1) solid 1px;
+    width: 393px;
+    height: 42px;
+    border: 1px solid var(--Border1);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    bottom: 0%;
+    padding-top: 5px;
+}
+.Menu1 .icon_menu{
+    font-size: 35px;
+    color: white;
+}
