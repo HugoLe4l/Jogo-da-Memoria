@@ -1,8 +1,8 @@
 import "./home.css"
 import { use, useEffect, useRef, useState } from "react";
 // Components
-import Card1 from "../../components/card1/card1"
-import Menu1 from "../../components/Menu1/Menu1"
+import Card1 from "../../components/card1/Card1.jsx"
+import Menu1 from "../../components/Menu1/Menu1.jsx"
 
 import Figure_svg1 from "../../../public/Figures/1.svg";
 import Figure_svg2 from "../../../public/Figures/2.svg";
