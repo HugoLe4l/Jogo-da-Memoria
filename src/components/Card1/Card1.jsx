@@ -1,5 +1,5 @@
 import "./Card1.css"
-import { useEffect, useRef, useState, useImperativeHandle  } from "react"
+import { useEffect, useRef, useState } from "react"
 import Interrogacao_Icon from "../../../public/Icons/ponto-de-interrogacao.png"
 
 
