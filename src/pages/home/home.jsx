@@ -223,7 +223,7 @@ function HomePage() {
                         }
                     </section>
                 </div>
-                <Menu1/>
+                
 
                 <audio ref={RefAudioAcertou} src={AudioAcertou}></audio>
                 <audio ref={RefAudioErrou} src={AudioErrou}></audio>
